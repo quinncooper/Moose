@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="800.0" minHeight="800.0" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #EAEDF6;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashboardController">
+
+
+
+    <children>
+
+              <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#323941" height="800.0" strokeType="INSIDE" width="245.0" />
+      <Group layoutX="-3.0" layoutY="194.0" AnchorPane.bottomAnchor="218.89998769760132" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="952.8999938964844" AnchorPane.topAnchor="194.00000619888306">
+         <children>
+            <JFXButton layoutX="4.099999904632568" layoutY="65.10000610351562" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Past Orders" />
+            <JFXButton graphicTextGap="0.0" layoutX="4.099999904632568" layoutY="324.1000061035156" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Current Orders" textFill="#eeeeee" />
+            <JFXButton layoutX="4.099999904632568" layoutY="3.100006103515625" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Incidents" />
+            <JFXButton layoutX="4.099999904632568" layoutY="259.1000061035156" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Customers" />
+            <JFXButton graphicTextGap="0.0" layoutX="4.099999904632568" layoutY="195.10000610351562" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Employees" />
+            <JFXButton graphicTextGap="0.0" layoutX="4.099999904632568" layoutY="131.10000610351562" prefHeight="60.0" prefWidth="244.0" styleClass="sidebar" text="Dashboard" />
+            <ImageView fitHeight="47.0" fitWidth="41.0" layoutX="22.0" layoutY="72.0">
+               <image>
+                  <Image url="@pics/list.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Group>
+      <JFXButton graphicTextGap="0.0" layoutY="752.0" prefHeight="49.0" prefWidth="244.0" style="-fx-background-color: #e03030;" styleClass="sidebar" text="Exit" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="136.0" layoutX="691.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="boxes" width="351.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="136.0" layoutX="691.0" layoutY="370.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="boxes" width="351.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="800.0" layoutX="1119.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="signinbar" width="81.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="200.0" layoutX="538.0" layoutY="561.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="504.0" />
+      <ImageView fitHeight="195.0" fitWidth="200.0" layoutX="14.0" layoutY="34.0">
+         <image>
+            <Image url="@pics/Logo Option 7.png" />
+         </image>
+      </ImageView>
+
+    </children>
+
+</AnchorPane>
